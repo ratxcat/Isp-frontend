@@ -1,4 +1,4 @@
-import { Globe } from "@/components/3dglobe/Globe";
+
 import BannerOne from "@/components/banner/BannerOne";
 import BlogOne from "@/components/blog/BlogOne";
 import CaseStudies from "@/components/casestudies/CaseStudies";
