@@ -15,13 +15,13 @@ function Nav() {
                         </li>
 
                         <li>
-                            <Link className="nav-link" href="#">
+                            <Link className="nav-link" href="/pricing">
                                 Pricing
                             </Link>
                         </li>
                        
                         <li>
-                            <Link className="nav-link" href="#">
+                            <Link className="nav-link" href="/service">
                                 Offers
                             </Link>
                         </li>
@@ -31,7 +31,7 @@ function Nav() {
                             </Link>
                         </li>
                         <li>
-                            <Link className="nav-link" href="#">
+                            <Link className="nav-link" href="pay-bill">
                                 Pay Bill
                             </Link>
                         </li>

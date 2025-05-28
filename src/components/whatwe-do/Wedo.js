@@ -36,7 +36,7 @@ function Wedo() {
                                 </a>
                             </div>
                         </div>
-                        <div
+                        {/* <div
                             className="col-lg-6 col-md-6 col-sm-12 wow fadeInUp"
                             data-wow-offset={120}
                             data-wow-delay=".6s"
@@ -52,7 +52,7 @@ function Wedo() {
                                     <img src="assets/images/service/icons/13.svg" alt="arrow" />
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

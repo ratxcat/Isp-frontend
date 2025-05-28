@@ -1,17 +1,18 @@
-import Head from 'next/head';
+import Head from "next/head";
 import "../../public/assets/css/plugins/fontawesome.css";
 import "../../public/assets/css/plugins/magnifying-popup.css";
 import "../../public/assets/css/plugins/swiper.css";
 import "../../public/assets/css/plugins/metismenu.css";
 import "../../public/assets/css/vendor/bootstrap.min.css";
-import 'react-modal-video/css/modal-video.min.css';
+import "react-modal-video/css/modal-video.min.css";
 
 // Import your custom styles LAST to override plugin styles
 import "../../public/assets/css/style.css";
 
-import Script from 'next/script';
-
-
+import Script from "next/script";
+import HeaderOne from "@/components/header/HeaderOne";
+import FooterFour from "@/components/footer/FooterFour";
+import BackToTop from "@/components/common/BackToTop";
 
 export const metadata = {
   title: "Luminos - IT solutions for a growing businesses",
@@ -27,15 +28,19 @@ export default function RootLayout({ children }) {
       <Head>
         <title>Luminos - IT solutions for a growing businesses</title>
         <meta name="author" content="reactheme" />
-        <meta name="description" content="Luminos - IT solutions for a growing businesses" />
+        <meta
+          name="description"
+          content="Luminos - IT solutions for a growing businesses"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/assets/images/fav.png" />
       </Head>
-      <body className='index-one'>
-
+      <body className="index-one">
+        <HeaderOne />
         {children}
 
-
+        <FooterFour />
+        <BackToTop />
 
         <Script
           src="/assets/js/plugins/smooth-scroll.js"

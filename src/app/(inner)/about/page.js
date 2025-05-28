@@ -15,18 +15,18 @@ import CtaFour from "@/components/cta/CtaFour";
 export default function Home() {
     return (
         <div className='#'>
-            <HeaderOne />
+            {/* <HeaderOne /> */}
             <AboutBanner />
             <Wedo />
             <FeatureOne />
             <FeatureTwo />
             <ServiceSix />
-            <PricingFour />
+            {/* <PricingFour /> */}
             <BrandTwo />
             <TestimonialsThree />
             <CtaFour />
-            <FooterOne />
-            <BackToTop />
+            {/* <FooterOne />
+            <BackToTop /> */}
         </div>
     );
 }

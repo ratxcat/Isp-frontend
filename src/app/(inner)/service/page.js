@@ -15,7 +15,7 @@ import CtaSix from "@/components/cta/CtaSix";
 export default function Home() {
     return (
         <div className='#'>
-            <HeaderTwo />
+            {/* <HeaderTwo /> */}
             <ServiceBanner />
             <ServiceSeven />
             <ServiceList />
@@ -25,8 +25,8 @@ export default function Home() {
             <CtaFive />
             <TestimonialsFive/>
             <CtaSix/>
-            <FooterOne />
-            <BackToTop />
+            {/* <FooterOne />
+            <BackToTop /> */}
         </div>
     );
 }

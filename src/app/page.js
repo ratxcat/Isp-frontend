@@ -22,7 +22,7 @@ import Testimonials from "@/components/testimonials/Testimonials";
 export default function Home() {
   return (
     <div className="#">
-      <HeaderOne />
+    
       <BannerOne />
       <LargeVideo />
       <ServiceOne />
@@ -35,9 +35,8 @@ export default function Home() {
       {/* <BlogOne /> */}
       {/* <CtaOne /> */}
       <ContactOne />
-      <FooterFour />
-      <BackToTop />
-      {/* <Globe/> */}
+    
+      
     </div>
   );
 }

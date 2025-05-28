@@ -33,7 +33,7 @@ export default function Home() {
     };
     return (
         <div className='#'>
-            <HeaderTwo />
+            {/* <HeaderTwo /> */}
 
             <>
                 {/* contact banner areas start */}
@@ -190,8 +190,8 @@ export default function Home() {
 
 
 
-            <FooterOne />
-            <BackToTop />
+            {/* <FooterOne />
+            <BackToTop /> */}
         </div>
     );
 }

@@ -9,24 +9,19 @@ export default function Home() {
         <div className='#'>
             {/* <HeaderTwo /> */}
 
-
-
             <>
+                {/* Payment Banner Area */}
                 <div className="rts-career-banner-area rts-section-gap">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="career-banner-wrapper">
-                                    <h1 className="title">Ultimate Solutions for Ecommerce Industries</h1>
+                                    <h1 className="title">Easy & Secure Internet Bill Payments</h1>
                                     <p className="disc">
-                                        We believe that our people are our greatest asset. We are
-                                        committed to fostering a collaborative, inclusive, and dynamic
-                                        work environment where every team member can thrive. If you are
-                                        passionate about technology and dedicated to delivering
-                                        exceptional IT solutions, we want to hear from you!
+                                        Manage your Internet subscription with ease. We offer a variety of secure payment options, transparent billing, and dedicated support to ensure you stay connected without hassle.
                                     </p>
                                     <a href="#" className="rts-btn btn-primary btn-bold">
-                                        Current Openings
+                                        Pay Your Bill
                                     </a>
                                 </div>
                             </div>
@@ -38,13 +33,15 @@ export default function Home() {
                                     <img
                                         className="jarallax-img"
                                         src="assets/images/industry/11.webp"
-                                        alt="career"
+                                        alt="payment"
                                     />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                {/* Payment Methods & Benefits */}
                 <div className="bg-gradient-one-industry">
                     <div className="consultancy-bottom rts-section-gap career-two-section">
                         <div className="container">
@@ -61,36 +58,33 @@ export default function Home() {
                                 <div className="col-lg-6">
                                     <div className="career-right-two-wrapper">
                                         <h2 className="title">
-                                            Revolutionizing Patient Care with Technology
+                                            Flexible Payment Options
                                         </h2>
                                         <p>
-                                            We offer tailored IT consulting and advisory services designed
-                                            to help businesses thrive in an ever-evolving digital landscape.
-                                            Whether you modernizing your infrastructure, optimizing
-                                            processes.
+                                            Choose from multiple payment methods to suit your convenience. Our platform is designed for security, speed, and simplicity.
                                         </p>
                                         <div className="check-wrapper-main">
                                             <div className="single-wrapper">
                                                 <div className="check-wrapper">
                                                     <div className="single-check">
                                                         <img src="assets/images/service/01.svg" alt="service" />
-                                                        <p> IT Strategy Development</p>
+                                                        <p>Credit/Debit Card Payments</p>
                                                     </div>
                                                     <div className="single-check">
                                                         <img src="assets/images/service/01.svg" alt="service" />
-                                                        <p>Digital Transformation Consulting</p>
+                                                        <p>Online Banking & UPI</p>
                                                     </div>
                                                     <div className="single-check">
                                                         <img src="assets/images/service/01.svg" alt="service" />
-                                                        <p>Infrastructure Optimization</p>
+                                                        <p>Wallets & Mobile Payments</p>
                                                     </div>
                                                     <div className="single-check">
                                                         <img src="assets/images/service/01.svg" alt="service" />
-                                                        <p>Cybersecurity &amp; Risk Management</p>
+                                                        <p>Auto-Pay Setup</p>
                                                     </div>
                                                     <div className="single-check">
                                                         <img src="assets/images/service/01.svg" alt="service" />
-                                                        <p>Enhancing Data-Driven Decisions</p>
+                                                        <p>In-Store Payments</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -100,42 +94,41 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+
+                    {/* Payment Support & Assistance */}
                     <div className="consultancy-bottom rts-section-gapBottom career-two-section">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
                                     <div className="career-right-two-wrapper">
                                         <h2 className="title">
-                                            Empowering Smart Manufacturing Advanced Technology
+                                            Dedicated Payment Support
                                         </h2>
                                         <p>
-                                            In the fast-evolving manufacturing sector, businesses must
-                                            embrace digital transformation to stay competitive. Our IT
-                                            solutions are designed to optimize processes, enhance
-                                            productivity
+                                            Our support team is available to help you with payment queries, billing issues, and refunds. We are committed to making your payment experience smooth and secure.
                                         </p>
                                         <div className="check-wrapper-main">
                                             <div className="single-wrapper">
                                                 <div className="check-wrapper">
                                                     <div className="single-check">
-                                                        <img src="assets/images/service/01.svg" alt="service" />
-                                                        <p> IT Strategy Development</p>
+                                                       <img src="assets/images/service/01.svg" alt="service" />
+                                                        <p>24/7 Payment Assistance</p>
+                                                    </div>
+                                                    <div className="single-check">
+                                                         <img src="assets/images/service/01.svg" alt="service" />
+                                                        <p>Instant Payment Confirmation</p>
+                                                    </div>
+                                                    <div className="single-check">
+                                                      <img src="assets/images/service/01.svg" alt="service" />
+                                                        <p>Secure Transactions</p>
                                                     </div>
                                                     <div className="single-check">
                                                         <img src="assets/images/service/01.svg" alt="service" />
-                                                        <p>Digital Transformation Consulting</p>
+                                                        <p>Easy Refunds & Dispute Resolution</p>
                                                     </div>
                                                     <div className="single-check">
-                                                        <img src="assets/images/service/01.svg" alt="service" />
-                                                        <p>Infrastructure Optimization</p>
-                                                    </div>
-                                                    <div className="single-check">
-                                                        <img src="assets/images/service/01.svg" alt="service" />
-                                                        <p>Cybersecurity &amp; Risk Management</p>
-                                                    </div>
-                                                    <div className="single-check">
-                                                        <img src="assets/images/service/01.svg" alt="service" />
-                                                        <p>Enhancing Data-Driven Decisions</p>
+                                                       <img src="assets/images/service/01.svg" alt="service" />
+                                                        <p>Detailed Billing History</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -155,37 +148,37 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                {/* industry service area start */}
+
+                {/* Payment Benefits Area */}
                 <div className="industry-serviuce-area rts-section-gap">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="career-right-two-wrapper industry">
                                     <h2 className="title">
-                                        Benefits of Our <br /> Industrial IT Services
+                                        Why Pay With Us?
                                     </h2>
                                     <p className="more">
-                                        Our industrial IT services are designed to empower businesses with
-                                        tailored solutions that address unique challenges
+                                        Experience hassle-free payments and uninterrupted internet services with our advanced billing platform.
                                     </p>
                                     <div className="check-wrapper-main">
                                         <div className="single-wrapper">
                                             <div className="check-wrapper">
                                                 <div className="single-check">
-                                                    <img src="assets/images/service/01.svg" alt="service" />
-                                                    <p> Enhanced Operational Efficiency</p>
+                                                     <img src="assets/images/service/01.svg" alt="service" />
+                                                    <p>Real-Time Payment Updates</p>
+                                                </div>
+                                                <div className="single-check">
+                                                     <img src="assets/images/service/01.svg" alt="service" />
+                                                    <p>Transparent Billing</p>
+                                                </div>
+                                                <div className="single-check">
+                                                     <img src="assets/images/service/01.svg" alt="service" />
+                                                    <p>No Hidden Charges</p>
                                                 </div>
                                                 <div className="single-check">
                                                     <img src="assets/images/service/01.svg" alt="service" />
-                                                    <p>Improved Decision-Making</p>
-                                                </div>
-                                                <div className="single-check">
-                                                    <img src="assets/images/service/01.svg" alt="service" />
-                                                    <p>Enhanced Security and Compliance</p>
-                                                </div>
-                                                <div className="single-check">
-                                                    <img src="assets/images/service/01.svg" alt="service" />
-                                                    <p>Improved Customer Satisfaction</p>
+                                                    <p>Renewal Reminders</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -205,10 +198,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                {/* industry service area end */}
             </>
-
-
 
             {/* <CtaOne />
             <FooterOne />
